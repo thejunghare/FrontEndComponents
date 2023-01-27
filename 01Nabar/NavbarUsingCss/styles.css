@@ -1,0 +1,73 @@
+/* import IBM sans font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 100vh;
+    /* max-width: 400px; */
+    margin:0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* parnet container */
+.parent {
+    /* border: 2px solid red; */
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+    transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+    background: white;
+}
+
+/* Child container */
+.child {
+    /* border: 2px solid yellow; */
+    margin: 4px;
+    width: calc(100vw - 20vw);
+    justify-content: center;
+    text-align: center;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.link {
+    
+}
+
+/* For desktop view */
+@media screen and (min-width: 1024px) {}
+
+/* For tablet view */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+/* For mobile landscape */
+@media screen and (max-device-width: 640px) and (orientation: landscape){}
+
+/* For mobile portrait */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        background: #f5f5f5;
+    }
+}
