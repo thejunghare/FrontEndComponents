@@ -1,0 +1,13 @@
+.accordion-title {
+    border: 2px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-description {
+    border: 2px solid red;
+    padding: 5px;
+    display: none; /* display none by default */
+}
