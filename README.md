@@ -1,5 +1,4 @@
 # FrontEndComponents
-<h3>Live preview to the components is given below in sequence</h3>
-<p>Component 01 - Navbar <span><a href="">a</a></span></p>
-<p>Component 02 - Accordion <span></span></p>
-<p>Component 03 - Sidebar </p>
+<h2>Live preview to the components is given below in sequence</h2>
+<p><a href="https://component-navbar.netlify.app/">Component 01 - Navbar</a></p>
+<p><a href="https://component-accordion.netlify.app/">Component 02 - Accordion</a></p>
