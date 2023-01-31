@@ -36,3 +36,10 @@ body {
     cursor: pointer;
     vertical-align: middle;
 }
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .text {
+        font-size: 18px;
+    }
+}
