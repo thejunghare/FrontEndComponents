@@ -9,13 +9,69 @@
     <title>04 Component | Modal</title>
     <!-- External css -->
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- satoshi cdn link -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap"
+        rel="stylesheet">
+    <!-- Remix cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="modal-container">
-        <Button class="modal-button">
-            learn more
-        </Button>
+        <a class="modal-button" href="#">
+            Learn more
+            <i class="ri-add-line"></i>
+        </a>
+
+        <!-- Modal Content -->
+        <div class="modal-content" id="modal-content">
+            <!-- Modal Header -->
+            <div class="content-header">
+                <div class="header-left">
+                    <h3>Welcome to loremocdes/FrontEndComponents..!😁</h3>
+                </div>
+                <div class="header-right">
+                    <a href="#" class="link">
+                        <i class="ri-close-line"></i>
+                    </a> 
+                </div>
+            </div>
+
+            <!-- Main content -->
+            <div class="content-main">
+                <h3>Hello World..!</h3>
+                <p>Go back to the <span><a href="https://github.com/loremcodes/FrontEndComponents">repositry</a></span> and learn other components</p>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="content-footer">
+                <div class="footer-left">
+                    <div class="footer-title">
+                        <h3 class="footer-title">Prasad Junghare</h3>
+                    </div>
+                    <div class="footer-discription">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod
+                            deserunt 
+                             
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-title">
+                        <h3>
+                            Social
+                        </h3>
+                    </div>
+                    <div class="footer-discription">
+                        <i class="ri-github-line"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- external Js -->

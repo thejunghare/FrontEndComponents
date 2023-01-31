@@ -1,0 +1,120 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    min-height: 100vh;
+    /* max-width: 400px; */
+    /* margin: 0 auto; */
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* Modal container */
+.modal-container {
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Modal button */
+.modal-button {
+    background-color: #252525;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ri-add-line {
+    vertical-align: middle;
+}
+
+.link {
+    text-decoration: none;
+    
+}
+
+/* Modal and content */
+.modal-content {
+    /* border: 2px solid green; */
+    margin: 20px auto;
+   /*  display: none; /* by default*/ 
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Modal header */
+.content-header {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+    padding: 15px;
+}
+
+.header-left {
+    /* border: 2px solid black; */
+    min-width: 50%;
+    text-align: left;
+}
+
+.header-right {
+    /* border: 2px solid brown; */
+    min-width: 50%;
+    text-align: right;
+}
+
+/* main */
+.content-main {
+    /* border: 2px solid purple; */
+    text-align: left;
+    padding: 15px;
+}
+
+/* Modal footer */
+.content-footer {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    padding: 15px;
+}
+
+.footer-left {
+    /* border: 2px solid blue; */
+    max-width: 50%;
+}
+
+.footer-discription {
+    text-align: left;
+}
+
+.footer-right {
+    /* border: 2px solid orange; */
+    max-width: 50%;
+}
+
+.footer-title {
+    text-align: left;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.footer-discription {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
