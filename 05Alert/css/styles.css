@@ -40,6 +40,11 @@ body {
 .icon {
     cursor: pointer;
     vertical-align: middle;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #0066ff;
+    background: #f5f5f5;
+    border-radius: 4px;
+    font-size: 20px;
 }
 
 /* Responsive design */
@@ -55,8 +60,5 @@ body {
         cursor: pointer;
         vertical-align: middle;
         font-size: 30px;
-        color: #0066ff;
-        background: #f5f5f5;
-        border-radius: 4px;
     }
 }
