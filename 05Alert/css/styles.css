@@ -1,0 +1,38 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    min-height: 100vh;
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* alert Container */
+.alert-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0px 10px;
+    background: #0066ff;
+    color: white;
+}
+
+/* Text */
+.text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* Icon */
+.icon {
+    cursor: pointer;
+    vertical-align: middle;
+}
