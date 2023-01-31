@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Default css */
+a{
+    text-decoration: none;
+}
+
 /* body */
 body {
     min-height: 100vh;
@@ -47,8 +52,9 @@ body {
     }
 
     .icon {
-        text-decoration: none;
-        font-size: 16px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 25px;
         color: white;
     }
 }
