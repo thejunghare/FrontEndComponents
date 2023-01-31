@@ -55,6 +55,8 @@ body {
         cursor: pointer;
         vertical-align: middle;
         font-size: 30px;
-        color: white;
+        color: #0066ff;
+        background: #f5f5f5;
+        border-radius: 4px;
     }
 }
