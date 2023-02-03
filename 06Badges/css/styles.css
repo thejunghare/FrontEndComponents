@@ -91,3 +91,12 @@ body {
     border-radius: 4px;
     padding: 2px;
 }
+
+/* Responsive design */
+/* Media queries for mobile */
+@media (max-width: 480px) {
+    body {
+        max-width: 80%;
+        margin: 20px auto;
+    }
+}
