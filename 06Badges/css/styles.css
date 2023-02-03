@@ -1,0 +1,93 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Style */
+a {
+    text-decoration: none;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* Badage Container */
+.badges-container {
+    /* border: 1px solid red; */
+    min-height: 50vh;
+    width: 50vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Badage link */
+.badge-link {
+    display: inline-block;
+    border: 2px solid green;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #0066ff;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    /* width: 19%; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.badge-link:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Badage iocn */
+.badge-icon {
+    /* border: 2px solid yellow; */
+    background: #f5f5f5;
+    color: #0066ff;
+    padding: 0px 5px;
+    border-radius: 4px;
+    outline: none;
+    /* display none by default */
+    /* display: none; */
+}
+
+/* Add extra space to button */
+.space {
+    padding-right: 5px;
+}
+
+/* badge 2 */
+.badge-icon2 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 12px;
+    left: 830px;
+    color: #00ff99;
+    font-size: 14px;
+    background: #000;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+
+/* badge 2 */
+.badge-icon3 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 12px;
+    left: 1016px;
+    color: #000;
+    font-size: 14px;
+    background: #000;
+    color: #00ff99;
+    border-radius: 4px;
+    padding: 2px;
+}
