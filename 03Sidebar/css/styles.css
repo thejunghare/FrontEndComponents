@@ -43,11 +43,24 @@ body {
     background: #fff;
     color: black;
     min-height: 100vh;
-    display: none;
+    /* display: none; */
     overflow-x: hidden;
     /* opacity: 0; */
     transition: 0.5s;
     text-align: center;
+}
+
+.close {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.icon {
+    vertical-align: middle;
+    font-size: 18px;
 }
 
 .list-item {
