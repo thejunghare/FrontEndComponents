@@ -99,19 +99,46 @@ body {
     body {
         max-width: 95%;
         margin: 20px auto;
+        min-height: 100vh;
     }
 
     .badges-container {
-        display: block;
+        /* border: 2px solid red; */
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .badge-2 {
+    .badge-icon2 {
         /* border: 2px solid red; */
-        display: none;
+        position: absolute;
+        left: 235px;
+        top: 220px;
     }
 
-    .badge-3 {
+    .badge-icon3 {
         /* border: 2px solid red; */
-        display: none;
+        position: absolute;
+        left: 220px;
+        top: 420px;
+    }
+}
+
+/* Media queries for Tablet ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .badge-icon2 {
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 12px;
+        left: 468px;
+    }
+
+    .badge-icon3 {
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 12px;
+        left: 567px;
     }
 }
