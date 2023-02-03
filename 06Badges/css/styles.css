@@ -14,7 +14,7 @@ a {
 body {
     min-height: 100vh;
     font-family: 'Satoshi', sans-serif;
-    background: #252525;
+    background: #ffffff;
 }
 
 /* Badage Container */
@@ -51,7 +51,7 @@ body {
 /* Badage iocn */
 .badge-icon {
     /* border: 2px solid yellow; */
-    background: #f5f5f5;
+    background: #e5e5e5;
     color: #0066ff;
     padding: 0px 5px;
     border-radius: 4px;
@@ -71,9 +71,9 @@ body {
     position: absolute;
     top: 12px;
     left: 820px;
-    color: #0066ff;
+    color: #111;
     font-size: 14px;
-    background: #fff;
+    background: #e5e5e5;
     padding: 2px;
     border-radius: 4px;
 }
@@ -85,12 +85,12 @@ body {
     position: absolute;
     top: 12px;
     left: 1010px;
-    color: #000;
     font-size: 14px;
-    background: #fff;
-    color: #0066ff;
+    background: #e5e5e5;
+    color: #111;
     border-radius: 4px;
     padding: 2px;
+    font-weight: 500;
 }
 
 /* Responsive design */
