@@ -7,5 +7,6 @@
   <li><a href="https://component-sidebar.netlify.app/" target="_blank">Component 03 - Sidebar</a></li>
   <li><a href="https://component-modal.netlify.app/" target="_blank">Component 04 - Modal</a></li> 
   <li><a href="https://component-alert.netlify.app/" target="_blank">Component 05 - Alert</a></li>
+  <li><a href="https://component-badges.netlify.app/" target="_blank">Component 06 - Badges</a></li>
 </ol>
 <p>Finally fork this repository. Don't forget to star this repository and increase my motivation to add new components regularly, aslo share to some one who might be in need of this code snippets</p>
