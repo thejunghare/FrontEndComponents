@@ -14,6 +14,7 @@ a {
 body {
     min-height: 100vh;
     font-family: 'Satoshi', sans-serif;
+    background: #252525;
 }
 
 /* Badage Container */
@@ -70,9 +71,9 @@ body {
     position: absolute;
     top: 12px;
     left: 820px;
-    color: #00ff99;
+    color: #0066ff;
     font-size: 14px;
-    background: #000;
+    background: #fff;
     padding: 2px;
     border-radius: 4px;
 }
@@ -86,8 +87,8 @@ body {
     left: 1010px;
     color: #000;
     font-size: 14px;
-    background: #000;
-    color: #00ff99;
+    background: #fff;
+    color: #0066ff;
     border-radius: 4px;
     padding: 2px;
 }
