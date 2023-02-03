@@ -99,4 +99,10 @@ body {
         max-width: 95%;
         margin: 20px auto;
     }
+
+    .badges-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
