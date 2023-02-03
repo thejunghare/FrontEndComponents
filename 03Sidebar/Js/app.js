@@ -1,18 +1,20 @@
 // catch the sidebar
-const sidebar = document.getElementById('sidebar')
-const menuButton = document.getElementById('icon')
+const menu = document.getElementById('menu')
+const button = document.getElementById('icon')
 
-menuButton.addEventListener('click', function () {
+button.addEventListener('click', function () {
     console.log(`I was clicked`);
-    let currentWidth = sidebar.style.width
-
-    if (currentWidth == '0px') {
-        sidebar.style.width = '250px'
-        console.log(`opening sidebar`);
-
+    let sidebar = menu.style.display;
+    if (sidebar == 'none') {
+        menu.style.display = 'block'
     } else {
-        sidebar.style.width = '0px'
-        console.log(`closing sidebar`);
-
+        menu.style.display = 'none'
     }
+
 })
+
+window.onclick = function (event) {
+    if (event.target == menu) {
+        menu.style.display = "none";
+    }
+} 
