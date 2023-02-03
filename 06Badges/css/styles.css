@@ -96,7 +96,7 @@ body {
 /* Media queries for mobile */
 @media (max-width: 480px) {
     body {
-        max-width: 80%;
+        max-width: 95%;
         margin: 20px auto;
     }
 }
