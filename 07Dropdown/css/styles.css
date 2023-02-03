@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Root Style */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Body  */
+body {
+    min-height: 100vh;
+    background: #fff;
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* Container */
+.container {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Button */
+.btn {
+    /* border: 2px solid green; */
+    cursor: pointer;
+    padding: 10px 15px;
+    background: #0066ff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icon {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+/* Menu */
+.dropdown {
+    /* border: 2px solid yellow; */
+    max-width: 250px;
+    margin-top: 10px;
+    background: #e5e5e5;
+    display: none;
+    border-radius: 4px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list-item {
+    /* border: 2px solid brown; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Links */
+.link {
+    /* border: 2px solid purple; */
+    color: #000;
+    font-weight: 500;
+}
+
+.list-item:hover {
+    background: #fff;
+}
+
+.link:hover {
+    text-transform: capitalize;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    body {
+        width: 95%;
+        margin: 20px auto;
+    }
+}
