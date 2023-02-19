@@ -9,5 +9,6 @@
   <li><a href="https://component-alert.netlify.app/" target="_blank">Component 05 - Alert</a></li>
   <li><a href="https://component-badges.netlify.app/" target="_blank">Component 06 - Badges</a></li>
   <li><a href="https://component-dropdown.netlify.app/" target="_blank">Component 07 - Dropdown</a></li>
+  <li><a href="https://component-cards.netlify.app/" target="_blank">Component 08 - Cards</a></li>
 </ol>
 <p>Finally fork this repository. Don't forget to star this repository and increase my motivation to add new components regularly, aslo share to some one who might be in need of this code snippets</p>
