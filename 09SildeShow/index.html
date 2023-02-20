@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>SildeShow Component | loremcodes</title>
+    <!-- External Css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- CDN for remix icon pack -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<div class="slideShowParent" id="parent">
+    <div class="slideShowChild" id="child-one">
+        <img class="slider-img" id="img-one" src="./img/imgOne.jpg" alt="">
+    </div>
+    <div class="slideShowChild" id="child-two">
+        <img class="slider-img" id="img-two" src="./img/imgTwo.jpg" alt="">
+    </div>
+    <div class="slideShowChild" id="child-three">
+        <img class="slider-img" id="img-three" src="./img/imgThree.jpg" alt="">
+
+    </div>
+
+    <a class="arrows" id="left" onclick="nextSlide(-1)"><i class="ri-arrow-left-circle-fill  "></i></a>
+    <a class="arrows" id="right" onclick="nextslide(1)"><i class="ri-arrow-right-circle-fill  "></i></a>
+</div>
+<!-- External javascript -->
+<script src="./Js/app.js"></script>
+
+<body>
+
+</body>
+
+</html>
