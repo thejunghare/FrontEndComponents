@@ -1,18 +1,10 @@
-// get the parnet container
-const parnet = document.querySelector('#parnet')
-// get the child container
 const childs = document.querySelectorAll('.slideShowChild')
-// get the arrows
-const leftArrow = document.querySelector('#left')
-const rightArrow = document.querySelector('#right')
-const button = document.querySelectorAll('arrows')
 
 let slideIndex = 1;
 
 function nextSlide(n) {
     showSlides(slideIndex += n)
 }
-
 
 // show slides
 function showSlides(n) {
@@ -30,7 +22,3 @@ function showSlides(n) {
 
     childs[slideIndex - 1].style.display = 'block'
 }
-
-
-
-
