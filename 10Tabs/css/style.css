@@ -59,8 +59,22 @@
         .tab-content {
             border: 2px solid red;
             padding: 16px;
+            display: none;
+            animation: fadeEffect 1s;
+            /* Fading effect takes 1 second */
         }
 
         .tab-content-inner {
             margin-bottom: 16px;
+        }
+
+        /* Go from zero to full opacity */
+        @keyframes fadeEffect {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
