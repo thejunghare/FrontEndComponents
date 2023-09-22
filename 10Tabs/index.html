@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <!-- tabs tigger -->
+   <!-- tabs tigger -->
     <section class="section">
         <div class="tabs-links">
-            <div class="link link-1 active" onclick="openCity(event, 'HTML')">
+            <div class="link link-1 active" onclick="openCity(event, 'HTML')" id="defaultOpen">
                 <a href="" class="button">
                     HTML
                 </a>
@@ -27,7 +27,7 @@
                     CSS
                 </a>
             </div>
-            <div class="link link-3">
+            <div class="link link-3" onclick="openCity(event, 'Javascript')">
                 <a href="" class="button">
                     Javascript
                 </a>
@@ -55,6 +55,13 @@
         <!-- css -->
         <div class="tab-content" id="CSS">
             <h3 class="tab-content-inner">CSS Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, asperiores.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem nobis, corrupti rem similique unde minima deleniti magnam assumenda hic est.</p>
+        </div>
+        <!-- /css -->
+
+        <!-- Javascript -->
+        <div class="tab-content" id="Javascript">
+            <h3 class="tab-content-inner">Javascript Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, asperiores.</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem nobis, corrupti rem similique unde minima deleniti magnam assumenda hic est.</p>
         </div>
         <!-- /css -->
