@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Hover Tabs</title>
+    <!-- css -->
+    <style>
+        /* css reset */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* System Fonts  */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            min-height: 100vh;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #e5e5e5;
+        }
+
+        /* sidebar */
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background: #14213d;
+            position: fixed;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+            height: 100%;
+            /* Full-height: remove this if you want "auto" height */
+            /* Set the width of the sidebar */
+            position: fixed;
+            /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            /* Stay at the top */
+            left: 0;
+            /* Black */
+            /* Disable horizontal scroll */
+            padding-top: 4px;
+
+        }
+
+        /* sidebar list items */
+        .list-item {
+            padding: 16px;
+        }
+
+        /* sidebar list link */
+        .list-item {
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+
+        /* sidebar list link hover */
+        .list-item:hover {
+            background: #fca311;
+            /* Yellow */
+            cursor: pointer;
+            color: black;
+        }
+
+        /* sidebar list link active */
+        .active {
+            background: #fca311;
+            color: #000000;
+        }
+
+        /* main content */
+        div.content {
+            border: 2px solid red;
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: 1000px;
+            width: calc(100vw - 200px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div>
+            <ul>
+                <li class="list-item active "><a href="">html</a></li>
+                <li class="list-item"><a href="">css</a></li>
+                <li class="list-item"><a href="">javascript</a></li>
+            </ul>
+        </div>
+        <div>
+
+            <div class="content">
+                <div id="html">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestias ipsa voluptate
+                        quaerat nisi adipisci doloremque asperiores, omnis corporis ratione neque molestiae, saepe atque
+                        perspiciatis modi eius, fugit velit dolore.
+                    </p>
+                </div>
+                <div id="css"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi facilis nostrum vitae recusandae
+                    eos numquam ipsa obcaecati. Ducimus a, laborum exercitationem ullam dicta dolore unde excepturi ut
+                    illo dolores amet.
+                </p>
+            </div>
+</body>
+
+</html>
