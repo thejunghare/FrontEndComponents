@@ -1,32 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<form action="">
+    <div id="inputContainer">
+        <input type="text">
+        <input type="file" name="" id="">
+    </div>
+    <button type="button" id="addInput">Add another</button>
+</form>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
+<script>
+    function addInput() {
+        const inputContainer = document.getElementById('inputContainer');
 
-<body>
-    <form action="">
+        // Create a new input element of type 'text'
+        const textInput = document.createElement('input');
+        textInput.type = 'text';
 
-        <div id="inputContainer">
-            <input type="text">
-        </div>
+        // Create a new input element of type 'file'
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
 
-        <button type="button" id="addInput">Add another</button>
-    </form>
+        // Append both input fields to the container
+        inputContainer.appendChild(textInput);
+        inputContainer.appendChild(fileInput);
+    }
 
-    <script>
-        function addInput() {
-            const inputContainer = document.getElementById('inputContainer')
-            const input = document.createElement('input')
-            input.type = 'text'
-            inputContainer.appendChild(input)
-        }
+    document.getElementById('addInput').addEventListener('click', addInput);
+</script>
+<form action="">
+    <div id="inputContainer">
+        <input type="text">
+        <input type="file" name="" id="">
+    </div>
+    <button type="button" id="addInput">Add another</button>
+</form>
 
-        document.getElementById('addInput').addEventListener('click', addInput);
-    </script>
-</body>
+<script>
+    function addInput() {
+        const inputContainer = document.getElementById('inputContainer');
 
-</html>
+        // Create a new input element of type 'text'
+        const textInput = document.createElement('input');
+        textInput.type = 'text';
+
+        // Create a new input element of type 'file'
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+
+        // Append both input fields to the container
+        inputContainer.appendChild(textInput);
+        inputContainer.appendChild(fileInput);
+    }
+
+    document.getElementById('addInput').addEventListener('click', addInput);
+</script>
