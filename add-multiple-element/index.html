@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .input{
+            border: 2px dashed lightblue;
+            outline: none;
+        }
+    </style>
 </head>
+
 <body>
+    <form action="">
+        <div id="inputContainer">
+            <input type="text" name="text" class="input">
+            <input type="file" name="file" class="input">
+        </div>
+        <button type="button" id="addInput">Add another</button>
+    </form>
 
-<form action="">
-    <div id="inputContainer">
-        <input type="text">
-        <input type="file" name="" id="">
-    </div>
-    <button type="button" id="addInput">Add another</button>
-</form>
-
-<script>
-    function addInput() {
-        const inputContainer = document.getElementById('inputContainer');
-
-        // Create a new input element of type 'text'
-        const textInput = document.createElement('input');
-        textInput.type = 'text';
-
-        // Create a new input element of type 'file'
-        const fileInput = document.createElement('input');
-        fileInput.type = 'file';
-
-        // Append both input fields to the container
-        inputContainer.appendChild(textInput);
-        inputContainer.appendChild(fileInput);
-    }
-
-    document.getElementById('addInput').addEventListener('click', addInput);
-</script>
-
+    <script src="app.js"></script>
 </body>
+
 </html>
