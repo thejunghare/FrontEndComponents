@@ -1,97 +1,116 @@
-/* Import IBM font */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        /* Import IBM font */
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* css reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        /* css reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Body */
-body {
-    max-height: 100vh;
-    max-width: 50%;
-    margin: 20px auto;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
+        /* Body */
+        body {
+            max-height: 100vh;
+            max-width: 50%;
+            margin: 20px auto;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-}
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.7;
+        }
 
-.accordion-title {
-    /* border: 2px solid black; */
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background: #E2DFD2;
-    border-radius: 8px;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
+        .accordion-title {
+            /* border: 2px solid black; */
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background: #E2DFD2;
+            border-radius: 8px;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
 
-.link {
-    font-size: 18px;
+        .link {
+            font-size: 18px;
 
-}
+        }
 
-.accordion-description {
-    /* border: 2px solid red; */
-    padding: 5px;
-    /* display none by default */
-    display: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.5;
-    background: white;
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition-delay: 5s;
-}
+        .accordion-description {
+            /* border: 2px solid red; */
+            padding: 5px;
+            /* display none by default */
+            display: none;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.5;
+            background: white;
+            transition: max-height 0.2s ease-out;
+        }
 
-/* Responsive design */
-/* Media queries for mobile */
-@media (max-width: 480px) {
-    body {
-        max-width: 80%;
-        margin: 20px auto;
-    }
-}
+        .active {
+            display: block;
+        }
 
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    body {
-        max-width: 80%;
-        margin: 20px auto;
-    }
-}
+        .hidden {
+            display: none;
+        }
 
-/* Media queries for Tablet ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
-    body {
-        max-width: 80%;
-        margin: 20px auto;
-    }
-}
+        .accordion-title:after{
+            content: '\02795';
+            font-size: 13px;
+            color: #777;
+            float: right;
+            margin-left: 5px;
+        }
 
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    body {
-        max-width: 50%;
-        margin: 20px auto;
-    }
-}
+        .active:after {
+            content: '\2796';
+        }
 
-/* Media query for large screens */
-@media (min-width: 1281px) {
-    body {
-        max-width: 50%;
-        margin: 20px auto;
-    }
-}
+        /* Responsive design */
+        /* Media queries for mobile */
+        @media (max-width: 480px) {
+            body {
+                max-width: 80%;
+                margin: 20px auto;
+            }
+        }
+
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                max-width: 80%;
+                margin: 20px auto;
+            }
+        }
+
+        /* Media queries for Tablet ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            body {
+                max-width: 80%;
+                margin: 20px auto;
+            }
+        }
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px) {
+            body {
+                max-width: 50%;
+                margin: 20px auto;
+            }
+        }
+
+        /* Media query for large screens */
+        @media (min-width: 1281px) {
+            body {
+                max-width: 50%;
+                margin: 20px auto;
+            }
+        }
