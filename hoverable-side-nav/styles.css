@@ -1,0 +1,61 @@
+
+        body {
+            font-family: Bahnschrift,
+                'DIN Alternate',
+                'Franklin Gothic Medium',
+                'Nimbus Sans Narrow',
+                sans-serif-condensed,
+                sans-serif;
+            font-weight: normal;
+        }
+
+        .icon {
+            position: absolute;
+            left: -90px;
+            transition: 0.3s;
+            transition-timing-function: ease-in;
+            padding: 16px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #000;
+            border-radius: 0px 4px 4px 0px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+
+        @keyframes example {
+            from {
+                background-color: #cdb4db;
+            }
+
+            to {
+                background-color: #ffc8dd;
+            }
+        }
+
+        .icon:hover {
+            left: 0;
+            cursor: pointer;
+        }
+
+        #icon_one {
+            top: 20px;
+            background-color: #cdb4db;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        #icon_two {
+            top: 80px;
+            background-color: #ffc8dd;
+        }
+
+        #icon_three {
+            top: 140px;
+            background-color: #ffafcc;
+        }
+
+        #icon_four {
+            top: 200px;
+            background-color: #bde0fe;
+        }
