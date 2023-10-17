@@ -1,3 +1,4 @@
+/* 
 // catch the elements
 const accordionTitle = document.getElementsByClassName('accordion-title')
 const button = document.getElementsByClassName('accordion-expand-button')
@@ -15,3 +16,18 @@ for (let i = 0; i < accordionTitle.length; i++) {
         }
     });
 }
+ */
+
+const accordionTitles = document.querySelectorAll('.accordion-title')
+
+const toggleContent = (event) => {
+    const title = event.currentTarget;
+    const content = title.nextElementSibling
+
+    title.classList.toggle('active')
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+}
+
+accordionTitles.forEach(title => {
+    title.addEventListener('click', toggleContent)
+});
