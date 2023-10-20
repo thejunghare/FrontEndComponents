@@ -9,7 +9,8 @@ This is code snippets to the regularly used front end components you can make us
 - <a href="https://component-alert.netlify.app/" target="_blank">Component 05 - Alert</a>
 -  <a href="https://component-badges.netlify.app/" target="_blank">Component 06 - Badges</a>
 -  <a href="https://component-dropdown.netlify.app/" target="_blank">Component 07 - Dropdown</a>
--  <a href="https://component-cards.netlify.app/" target="_blank">Component 08 - Cards</a>
+- [Component 08 - Cards](https://component-cards.netlify.app/)
+
 
 
 
