@@ -1,0 +1,13 @@
+/* Selector Specificity
+TYPE --> p{}, h2{}, article{} --> 1
+
+CLASS --> .btn{}, .section{} --> 10
+
+ID --> #btn{} --> 100
+
+--- examples ---
+
+.btn{} --> 10
+
+.section article p {} --> 10 + 1 + 1 = 12
+*/

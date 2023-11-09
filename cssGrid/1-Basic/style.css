@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container{
+    background: #eee; /* light gray */
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: repeat(6, 1fr); /* same as -> grid-template-columns: 300px 300px 300px; */
+    grid-template-rows: 100px 200px 300px;
+    gap: 10px;
+    justify-items: stretch; /* -> stretch is default */
+    align-items: stretch; /* -> stretch is default */
+}
+
+.grid-container > div {
+    background: #ccc; /* another version of gray */
+    text-align: center;
+    padding: 20xp;
+    border: 1px solid #777;
+}
+
+.grid-container > div:nth-child(1){
+    grid-column: span 2;
+}
+
+.grid-container > div:nth-child(2){
+    grid-column: span 3;
+}
+
+.grid-container > div:nth-child(3){
+    grid-column: span 1;
+}
+
+.grid-container > div:nth-child(4){
+    grid-column: span 6;
+}
+
+.grid-container > div:nth-child(5){
+    grid-column: span 3;
+    align-self: end;
+}
+
+.grid-container > div:nth-child(6){
+    grid-column: span 3;
+    justify-self: start; /* -> justify means going across */
+}
