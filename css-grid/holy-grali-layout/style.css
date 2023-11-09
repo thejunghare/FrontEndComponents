@@ -1,0 +1,55 @@
+article img {
+  width: 100%;
+}
+
+li {
+  padding: 0;
+  list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 20px;
+}
+
+header {
+  grid-column: span 3;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  padding: 30px;
+  border-right: 1px solid #ddd;
+}
+
+nav li {
+  text-decoration: underline;
+}
+
+article {
+  padding: 30px;
+}
+
+article h2 {
+  font-size: 3.5em;
+  max-width: 800px;
+}
+
+article p {
+  margin-top: 30px;
+  line-height: 2em;
+  color: #777;
+}
+
+aside {
+  padding: 30px;
+  border-left: 1px solid #ddd;
+}
+
+footer {
+  grid-column: span 3;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
