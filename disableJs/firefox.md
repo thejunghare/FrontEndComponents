@@ -1,0 +1,3 @@
+- Enter about:config into the search bar and select Accept the Risk and Continue.
+- Enter javascript.enabled into the search box at the top of the page.
+- Select the javascript.enabled toggle to change the value to false.
