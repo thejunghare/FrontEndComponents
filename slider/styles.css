@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    background-image: url(./img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#child2 {
+    justify-content: center;
+}
+
+.sub-child {
+position: absolute;
+top: 50%;
+}
+
+#sub-child-2{
+    left: 95%;
+}
